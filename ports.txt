@@ -1,0 +1,20 @@
+emailservice 8080
+adservice 9555
+cartservice 7070
+checkoutservice 5050
+currencyservice 7000
+frontend 8080
+payementservice 50051
+productcatalogservice 3550
+recommendationservice 8080
+shippingservice 50051
+shoppingassistanceservice 8080
+
+--------------------------------------------
+
+	mustMapEnv(&svc.shippingSvcAddr, "SHIPPING_SERVICE_ADDR")
+	mustMapEnv(&svc.productCatalogSvcAddr, "PRODUCT_CATALOG_SERVICE_ADDR")
+	mustMapEnv(&svc.cartSvcAddr, "CART_SERVICE_ADDR")
+	mustMapEnv(&svc.currencySvcAddr, "CURRENCY_SERVICE_ADDR")
+	mustMapEnv(&svc.emailSvcAddr, "EMAIL_SERVICE_ADDR")
+	mustMapEnv(&svc.paymentSvcAddr, "PAYMENT_SERVICE_ADDR")
