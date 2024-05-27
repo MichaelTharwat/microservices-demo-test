@@ -126,7 +126,7 @@ spec:
     spec:
       containers:
       - name:  service
-        image: gcr.io/google-samples/microservices-demo/paymentservice@sha256:e8f2c90215b99e918ee4442cffad1f5f30faeb2938e0809c11b9cb2516557261
+        image: gcr.io/google-samples/microservices-demo/paymentservice@sha256:f49c08f35e501506aca97b921e1ea7917041231183ee49b3f94b4760d45bfd24
         ports:
         - containerPort: 50051
         env: 
