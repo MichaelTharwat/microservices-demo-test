@@ -240,7 +240,7 @@ spec:
     spec:
       containers:
       - name:  service
-        image: gcr.io/google-samples/microservices-demo/adservice
+        image: gcr.io/google-samples/microservices-demo/adservice:v0.10.0
         ports:
         - containerPort: 9555
         env: 
