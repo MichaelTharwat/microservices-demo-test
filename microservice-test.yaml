@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name:  service
-        image:  gcr.io/google-samples/microservices-demo/emailservice
+        image: gcr.io/google-samples/microservices-demo/emailservice
         ports:
         - containerPort: 8080
         env: 
@@ -50,7 +50,7 @@ spec:
     spec:
       containers:
       - name:  service
-        image:  gcr.io/google-samples/microservices-demo/recommendationservice
+        image: gcr.io/google-samples/microservices-demo/recommendationservice
         ports:
         - containerPort: 8080
         env: 
@@ -88,7 +88,7 @@ spec:
     spec:
       containers:
       - name:  service
-        image:  gcr.io/google-samples/microservices-demo/productcatalogservice
+        image: gcr.io/google-samples/microservices-demo/productcatalogservice
         ports:
         - containerPort: 3550
         env: 
@@ -126,7 +126,7 @@ spec:
     spec:
       containers:
       - name:  service
-        image:  gcr.io/google-samples/microservices-demo/payementservice
+        image: gcr.io/google-samples/microservices-demo/payementservice
         ports:
         - containerPort: 50051
         env: 
@@ -164,7 +164,7 @@ spec:
     spec:
       containers:
       - name:  service
-        image:  gcr.io/google-samples/microservices-demo/currencyservice
+        image: gcr.io/google-samples/microservices-demo/currencyservice
         ports:
         - containerPort: 7000
         env: 
@@ -202,7 +202,7 @@ spec:
     spec:
       containers:
       - name:  service
-        image:  gcr.io/google-samples/microservices-demo/shippingservice
+        image: gcr.io/google-samples/microservices-demo/shippingservice
         ports:
         - containerPort: 50051
         env: 
@@ -240,7 +240,7 @@ spec:
     spec:
       containers:
       - name:  service
-        image:  gcr.io/google-samples/microservices-demo/adservice
+        image: gcr.io/google-samples/microservices-demo/adservice
         ports:
         - containerPort: 9555
         env: 
@@ -278,7 +278,7 @@ spec:
     spec:
       containers:
       - name:  service
-        image:  gcr.io/google-samples/microservices-demo/cartservice
+        image: gcr.io/google-samples/microservices-demo/cartservice
         ports:
         - containerPort: 7070
         env: 
@@ -322,7 +322,7 @@ spec:
         ports:
         - containerPort: 6379
         volumeMounts:
-        - name:  redis-data
+        - name: redis-data
           mountPath:  /data
       volumes:
       - name:  redis-data
@@ -359,7 +359,7 @@ spec:
     spec:
       containers:
       - name:  service
-        image:  gcr.io/google-samples/microservices-demo/checkoutservice
+        image: gcr.io/google-samples/microservices-demo/checkoutservice
         ports:
         - containerPort: 5050
         env: 
@@ -409,7 +409,7 @@ spec:
     spec:
       containers:
       - name:  service
-        image:  gcr.io/google-samples/microservices-demo/frontend
+        image: gcr.io/google-samples/microservices-demo/frontend
         ports:
         - containerPort: 8080
         env: 
